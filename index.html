@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+        <style>
+            input{
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body> 
+        <form>
+            <h1>My Favorite Things</h1>
+            <h2>Books i've read</h2>
+            <ul>
+                <li><input type="checkbox" id="book1" name="book1" value="The Lord of the Rings">The Lord of the Rings</li>
+                <li><input type="checkbox" id="book2" name="book2" value="To Kill a Mockingbird">To Kill a Mockingbird</li>
+                <li><input type="checkbox" id="book3" name="book3" value="The Great Gatsby">The Great Gatsby</li>
+            </ul>
+            <h2>Movies Ratings</h2>
+            <ul>
+                <li><label for="movie1">The Shawshank Redemption:</label><input type="range" id="rating1" name="rating1" min="1" max="10"></li>
+                <li><label for="movie2">The Godfather</label><input type="range" id="rating2" name="rating2" min="1" max="10"></li>
+                <li><label for="movie3">Pulp Fiction</label><input type="range" id="rating3" name="rating3" min="1" max="10"></li>
+            </ul>
+            <h2>Best Music</h2>
+            <ol>
+                <li><input type="radio" id="music1" name="music" value="The Beatles">The Beatles</li>
+                <li><input type="radio" id="music2" name="music" value="Bob Dylan">Bob Dylan</li>
+                <li><input type="radio" id="music3" name="music" value="Johnny Cash">Johnny Cash</li>
+             </ol>
+             <input type="submit" value="Submit Favorites">
+        </form>
+    </body>
+</html>     
